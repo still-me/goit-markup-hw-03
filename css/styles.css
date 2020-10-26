@@ -393,10 +393,12 @@ footer .container {
   display: flex;
   justify-content: center;
 }
+
 .filter-btn {
   border-radius: 4px;
   padding: 6px 22px;
   cursor: pointer;
+  border: transparent;
 
   font-family: inherit;
   font-weight: 500;
@@ -474,4 +476,5 @@ footer .container {
 
 .current-page {
   color: var(--accent-text-color);
+  border-bottom: 4px solid var(--accent-text-color);
 }
