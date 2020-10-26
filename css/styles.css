@@ -477,4 +477,5 @@ footer .container {
 .current-page {
   color: var(--accent-text-color);
   border-bottom: 4px solid var(--accent-text-color);
+  border-radius: 2px;
 }
